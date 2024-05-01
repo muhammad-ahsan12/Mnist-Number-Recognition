@@ -3,6 +3,7 @@
 I am Excited to share my recent project . I have created a powerful model that can recognize handwritten numbers with impressive accuracy. Using a special type of neural network called CNN, I trained the model on the MNIST dataset. By carefully adjusting different layers and working with the dataset, I achieved great results.Additionally, I have extended the functionality of this model by integrating it into a user-friendly application using Streamlit. This allows users to upload their own handwritten digit images and receive instant predictions from the trained model
 
 #How to Use
+
 This repository contains code for training a deep learning model using Convolutional Neural Networks (CNN) to recognize handwritten digits from the MNIST dataset. Additionally, it includes a Streamlit application for predicting digits from user-uploaded images.
 
 Requirements
