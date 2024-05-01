@@ -12,18 +12,24 @@ Requirements
    Streamlit
 Training the Model
  Clone this repository to your local machine:
+ 
  --->git clone https://github.com/your_username/mnist-cnn-model.git
 Navigate to the project directory:
+
  --->cd mnist-cnn-model
 Install the required dependencies:
  --->pip install -r requirements.txt
+ 
 Run the training script to train the CNN model:
  --->python train_model.py
+ 
 This will train the model using the MNIST dataset and save the trained model as model.h5.
- --->Running the Streamlit App
+
+Running the Streamlit App 
 Once the model is trained, you can run the Streamlit app to predict digits from user-uploaded images.
 Navigate to the project directory and run the Streamlit app:
-streamlit run app.py
+  --->streamlit run app.py
+  
 This will start the Streamlit server, and you can access the app in your web browser at http://localhost:8501.
 Upload an image of a handwritten digit, and the app will predict the digit using the trained CNN model.
 Sample Usage
